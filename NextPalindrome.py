@@ -3,9 +3,7 @@
 print("Please provide any Palindrome number!!")
 num = input()
 
-l = len(num)
-
-n = l//2                    
+n = len(num)//2                    
 
 if(num == '9'):                     #Find middle position              
     next = 11
